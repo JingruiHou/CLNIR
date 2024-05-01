@@ -1,0 +1,12 @@
+cudatoolkit=11.3.1=h2bc3f7f_2
+pytorch=1.12.0=py3.8_cuda11.3_cudnn8.3.2_0
+pytorch-mutex=1.0=cuda
+scikit-learn=1.0.2=py38h51133e4_1
+tensorboard=2.11.2=pyhd8ed1ab_0
+tensorboard-data-server=0.6.0=py38h2b97feb_0
+tensorboard-plugin-wit=1.6.0=py_0
+tensorflow=2.4.1=mkl_py38hb2083e0_0
+tensorflow-base=2.4.1=mkl_py38h43e0292_0
+tensorflow-estimator=2.6.0=pyh7b7c402_0
+transformers=4.40.1=pypi_0
+quadprog=0.1.12=pypi_0
