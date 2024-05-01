@@ -1,0 +1,21 @@
+# vocab
+dataset_path: /home/lunet/cojh6/Documents/MSMARCO_data/cl_dataset
+vocab_path: /home/lunet/cojh6/Documents/MSMARCO_data/word-vocab-small.tsv
+# word2vec
+embed: /home/lunet/cojh6/Documents/MSMARCO_data/glove.6B.300d.txt
+embed_dim: 300
+unk_token: 0
+
+# model
+bin_count: 11
+query_max_len: 20
+target_max_len: 200
+batch_size: 128
+schedule: 5
+learning_rate: 0.001
+model_type: drmm
+model_name: DRMM
+
+train_type: Dataset_train
+test_type: Dataset_test
+need_local_feature: False

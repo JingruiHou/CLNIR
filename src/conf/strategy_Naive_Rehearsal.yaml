@@ -1,0 +1,3 @@
+agent_type: customization
+agent_name: Naive_Rehearsal_6000000
+lr: 0.001

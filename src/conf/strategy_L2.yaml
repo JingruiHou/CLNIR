@@ -1,0 +1,4 @@
+agent_type: regularization
+agent_name: L2
+lr: 0.001
+reg_coef: 0.001

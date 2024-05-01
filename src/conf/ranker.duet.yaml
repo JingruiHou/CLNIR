@@ -1,0 +1,29 @@
+# vocab
+dataset_path: /home/lunet/cojh6/Documents/MSMARCO_data/cl_dataset
+vocab_path: /home/lunet/cojh6/Documents/MSMARCO_data/word-vocab-small.tsv
+# word2vec
+embed: /home/lunet/cojh6/Documents/MSMARCO_data/glove.6B.300d.txt
+embed_dim: 300
+unk_token: 0
+
+# model
+seed: 10
+ARCH_TYPE: 2
+MAX_QUERY_TERMS: 20
+MAX_DOC_TERMS: 200
+query_max_len: 20
+target_max_len: 200
+NUM_HIDDEN_NODES: 300
+TERM_WINDOW_SIZE: 3
+POOLING_KERNEL_WIDTH_DOC: 100
+schedule: 3
+DROPOUT_RATE: 0.5
+MB_SIZE: 1024
+EPOCH_SIZE: 1024
+batch_size: 1024
+model_type: duet
+model_name: DUET
+
+train_type: Dataset_train
+test_type: Dataset_test
+need_local_feature: True

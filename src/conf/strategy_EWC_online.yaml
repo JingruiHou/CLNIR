@@ -1,0 +1,4 @@
+agent_type: customization
+agent_name: EWC_online_instance
+lr: 0.001
+reg_coef: 500

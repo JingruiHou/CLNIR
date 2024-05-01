@@ -1,0 +1,25 @@
+dataset_path: /home/lunet/cojh6/Documents/MSMARCO_data/cl_dataset
+vocab_path: /home/lunet/cojh6/Documents/MSMARCO_data/word-vocab-small.tsv
+embed: /home/lunet/cojh6/Documents/MSMARCO_data/glove.6B.300d.txt
+# model
+seed: 10
+bert_pretrained_model: sentence-transformers/paraphrase-TinyBERT-L6-v2
+bert_trainable: False
+batch_size: 32
+learning_rate: 0.001
+colbert_compression_dim: 768
+dropout: 0.0
+return_vecs: False
+trainable: False
+
+unk_token: 0
+query_max_len: 20
+target_max_len: 200
+model_type: bertcat
+model_name: BERT_Cat
+schedule: 1
+from_config: True
+
+train_type: BERT_Dataset_train
+test_type: BERT_Dataset_test
+need_merge: True
