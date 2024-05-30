@@ -18,7 +18,7 @@ Some implementations were inspired by the [matchmaker](https://github.com/sebast
 The `src/agents` directory features implementations of diverse continual learning strategies:
 
 - Regularization-based strategies: L2, EWC, EWCol, MAS
-- Replay-based strategies: Na?ve Rehearsal, GEM
+- Replay-based strategies: Naive Rehearsal, GEM
 
 These were developed with reference to the [Continual-Learning-Benchmark](https://github.com/GT-RIPL/Continual-Learning-Benchmark) repository.
 
@@ -54,6 +54,6 @@ If you use this code or wish to cite our work in your research, please use the f
   title={Advancing continual lifelong learning in neural information retrieval: definition, dataset, framework, and empirical evaluation},
   author={Hou, Jingrui and Cosma, Georgina and Finke, Axel},
   journal={arXiv preprint arXiv:2308.08378},
-  year={2023}
+  year={2023},
   url={https://arxiv.org/abs/2308.08378}
 }
