@@ -40,9 +40,7 @@ We have selected a small subset of data from each subtask as examples. Please do
 
 Once downloaded, unzip the data into the designated directory and update the directory paths in the code to match your local setup.
 
-## Future Updates
-
-We plan to release the entire dataset to the research community in the future.
+For the full dataset, please look at [Topic MSMARCO](https://github.com/JingruiHou/topicMSMARCO/). 
 
 
 ## How to Cite
